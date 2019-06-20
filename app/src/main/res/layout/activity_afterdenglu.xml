@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".qiandao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Te"
+                android:textColor="#FFFFFF" />
+
+            <DatePicker
+                android:id="@+id/datepicker"
+                android:layout_width="wrap_content"
+                android:layout_height="446dp"
+                android:calendarViewShown="true" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Te"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/kaishiqiandao"
+                android:layout_width="147dp"
+                android:layout_height="82dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:bufferType="normal"
+                android:text="立即签到"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/geren"
+                android:layout_width="147dp"
+                android:layout_height="82dp"
+                android:layout_gravity="bottom"
+                android:layout_weight="1"
+                android:text="个人中心"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout          xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_marginLeft="14dp"
+
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="99dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="102dp"
+                android:layout_height="97dp"
+                app:srcCompat="@drawable/touxiang" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/xuehao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="18dp"
+                    android:text="学号"
+                    android:textColor="#0E0507"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_weight="1"
+                    android:text="这个人很懒……" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_marginLeft="1.0px"
+            android:layout_marginRight="1.0px"
+            android:background="#F2F2F2" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="47dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="1dp"
+                app:srcCompat="@drawable/a1" />
+
+            <Button
+                android:id="@+id/xiugai"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+
+
+                android:gravity="left|center"
+                android:text="修改密码"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="47dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="1dp"
+                app:srcCompat="@drawable/biaoshi" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="366dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="1.0px"
+                android:layout_marginRight="1.0px"
+                android:background="#ffc0c3c4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="47dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="1dp"
+                app:srcCompat="@drawable/a2" />
+
+            <Button
+                android:id="@+id/jilu"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/xiugai"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+
+                android:gravity="left|center"
+                android:text="签到记录"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="47dp"
+                android:layout_height="48dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="28dp"
+
+                app:srcCompat="@drawable/biaoshi" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="366dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="1.0px"
+                android:layout_marginRight="1.0px"
+                android:background="#ffc0c3c4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="47dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                app:srcCompat="@drawable/a3" />
+
+            <Button
+                android:id="@+id/gengxin"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input"
+                android:layout_centerHorizontal="true"
+
+
+                android:background="@null"
+                android:gravity="left|center"
+                android:text="系统更新"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="47dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="28dp"
+                app:srcCompat="@drawable/biaoshi" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="366dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="1.0px"
+                android:layout_marginRight="1.0px"
+                android:background="#ffc0c3c4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="47dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                app:srcCompat="@drawable/a4" />
+
+            <Button
+                android:id="@+id/mibao"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/input"
+                android:layout_centerHorizontal="true"
+
+
+                android:background="@null"
+                android:gravity="left|center"
+                android:text="设置密保"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="47dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="28dp"
+                app:srcCompat="@drawable/biaoshi" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="366dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="1.0px"
+                android:layout_marginRight="1.0px"
+                android:background="#ffc0c3c4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="47dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+
+                app:srcCompat="@drawable/a5" />
+
+            <Button
+                android:id="@+id/fanhui"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tuichu"
+                android:layout_centerHorizontal="true"
+
+
+                android:background="@null"
+                android:gravity="left|center"
+                android:text="返回"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="47dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="28dp"
+                app:srcCompat="@drawable/biaoshi" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="1.0px"
+                android:layout_marginRight="1.0px"
+                android:background="#F2F2F2" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="53dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="47dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                app:srcCompat="@drawable/a6" />
+
+            <Button
+                android:id="@+id/tuichu"
+                android:layout_width="290dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/jilu"
+                android:layout_centerHorizontal="true"
+
+
+                android:background="@null"
+                android:gravity="left|center"
+                android:text="退出登录"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="47dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="28dp"
+                app:srcCompat="@drawable/biaoshi" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="202dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1.0px"
+            android:layout_marginRight="1.0px"
+            android:background="#F2F2F2" />
+    </LinearLayout>
+</LinearLayout>

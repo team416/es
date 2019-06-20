@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">易签</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+
+    <string name="default_message">"hello xvshu!"</string>
+    <string name="button_send">"say hello"</string>
+
+    <string name="interact_message">You just clicked on the Button!</string>
+
+    <string name="userIdError">You userid is error!</string>
+    <string name="passError">You  pass is error!</string>
+    <string name="loginSuccess">登录成功</string>
+    <string name="loginError">登录失败，账号或密码错误 </string>
+    <string name="inputerror">Input error</string>
+    <string name="registerError">账号已存在</string>
+    <string name="mimabuyizhi">两次输入密码不一致</string>
+    <string name="registerSuccess">注册成功</string>
+    <string name="xinjiuyizhi">老密码与新密码一致,请重置</string>
+    <string name="upadeteSuceess">密码修改成功</string>
+    <string name="answerwrong">答案错误</string>
+    <string name="zhanghaokong">账号为空</string>
+    <string name="bcsuccess">保存成功</string>
+    <string name="oldpasswrong">旧密码错误</string>
+    <string name="kong">账号或密码为空</string>
+    <string name="kong1">密码为空</string>
+    <string name="dakong">答案为空</string>
+    <string name="wtkong">问题为空</string>
+    <string name="dkong">问题和答案均为空</string>
+    <string name="noupdate">已是最新版本，暂无更新</string>
+    <string name="qiandao">签到成功</string>
+    <string name="zmimakong">第二次输入密码为空</string>
+    <string name="mimakong">输入密码为空</string>
+    <string name="ersank">学号和第二次输入密码为空</string>
+    <string name="yierk">学号和输入密码为空</string>
+    <string name="wushuru">无输入</string>
+</resources>
